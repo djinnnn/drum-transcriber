@@ -1,0 +1,13 @@
+# Recommended install target: a project-local virtualenv, not the system Python.
+#
+# ADTLib is not published consistently on PyPI. Install it from its GitHub repo
+# into the same venv after creating the environment, for example:
+#   python -m pip install "git+https://github.com/carlsouthall/ADTLib.git"
+
+numpy<2
+librosa<0.11
+pretty_midi<0.3
+music21>=8.3,<9
+demucs>=4,<5
+madmom @ git+https://github.com/CPJKU/madmom.git
+tensorflow<2.16
